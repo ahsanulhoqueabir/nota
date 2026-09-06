@@ -1,0 +1,28 @@
+name: note
+description: "Noto — a local-first Flutter notes app. Your notes. Always local."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Local relational database
+  sqflite: ^2.3.3
+
+  # Cross-platform path joining for the SQLite file location
+  path: ^1.9.0
+
+  # Date/time formatting for human-readable timestamps
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

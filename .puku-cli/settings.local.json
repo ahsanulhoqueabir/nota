@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter --version)",
+      "Bash(flutter pub:*)",
+      "Bash(flutter analyze:*)",
+      "Bash(flutter build:*)",
+      "Bash(flutter devices:*)",
+      "Bash(flutter run:*)",
+      "Bash(adb devices:*)",
+      "Bash(adb -s 088345290601 shell getprop ro.product.model)",
+      "Bash(where adb:*)",
+      "Bash(flutter doctor:*)",
+      "Bash(flutter install:*)",
+      "Bash(\"D:\\\\Flutter\\\\AndroidSDK\\\\platform-tools\\\\adb.exe\" -s 088345290601 install -r \"D:\\\\Flutter\\\\note\\\\build\\\\app\\\\outputs\\\\flutter-apk\\\\app-arm64-v8a-release.apk\")",
+      "Bash(\"D:\\\\Flutter\\\\AndroidSDK\\\\platform-tools\\\\adb.exe\" -s 088345290601 shell am start -n com.example.note/.MainActivity)"
+    ]
+  }
+}
